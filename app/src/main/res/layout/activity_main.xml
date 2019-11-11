@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#3399CC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SM"
+                android:fontFamily="@font/goth"
+                android:textSize="100dp"
+                android:layout_marginTop="110dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:text="S t a r r y M e"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="@font/goth"
+                android:textColor="#3399CC"/>
+
+                <EditText
+                    android:id="@+id/et_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/goth"
+                    android:textColor="#3399CC"
+                    android:lines="2"
+                    android:paddingLeft="15px" />
+
+                <EditText
+                    android:editable="false"
+                    android:layout_marginBottom="80dp"
+                    android:id="@+id/et_tanggal_lahir"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/goth"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Tanggal Lahir"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3399CC"
+                    android:layout_gravity="center"
+                    />
+                <Button
+                    android:id="@+id/btn_ramalkamu"
+                    android:textAlignment="center"
+                    android:text="Ramal Kamu"
+                    android:fontFamily="@font/goth"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="10dp"
+                    android:background="#3399CC"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:layout_height="40dp"
+                    />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
